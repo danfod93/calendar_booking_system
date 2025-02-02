@@ -1,0 +1,122 @@
+html body {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Make the body a flex container */
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #e2e8f0);
+    color: #333;
+    line-height: 1.6;
+}
+
+#body_ccontainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* This pushes the footer to the bottom */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4a90e2, #e2e8f0);
+}
+
+/* Welcome Section Styling */
+#welcome_section {
+    text-align: center;
+    background: linear-gradient(135deg, #4a90e2, #26b857);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add space from the top of the page */
+}
+
+#welcome_section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#welcome_section p {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #f3f4f6;
+}
+
+#cta_container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 85px auto;
+    border: solid 1px black;
+}
+
+.cta-button {
+    display: inline;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #4a90e2;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #26b857;
+    transform: scale(1.05);
+}
+
+.customer-message {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+footer {
+    background: #2d3748;
+    color: white;
+    background: #2d3748;
+    position: relative;
+    bottom: -72px;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    margin-top: 0; /* Remove any extra margin */
+}
+
+footer #info_cont {
+    display: inline-flex;
+}
+
+footer .info_div {
+    margin: 30px 30px;
+}
+
+footer #social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+footer #social-icons a:hover {
+    color: #4a90e2;
+}
+
+footer #contact-info {
+    margin-top: 10px;
+}
+
+footer #contact-info p {
+    margin: 5px 0;
+}
